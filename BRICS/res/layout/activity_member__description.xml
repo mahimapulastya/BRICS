@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.msk.bricsindia.Member_Description" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/member_description_iv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/rcsc" />
+
+        <TextView
+            android:id="@+id/member_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/member_designation_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/member_description_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/customshape3"
+            android:padding="10dp"
+            android:text="@string/hello_world"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</ScrollView>

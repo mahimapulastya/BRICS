@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Countries" >
+
+    <TextView
+        android:id="@+id/text_under_construction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/customshape"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Page will be uploaded soon..."
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/image_under_construction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/text_under_construction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:src="@drawable/under_construction" />
+    
+    <TextView
+        android:id="@+id/text_under_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/image_under_construction"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/customshape"
+        android:gravity="center"
+        android:text="Work under progress !!!"
+        android:textSize="25sp" />
+
+</RelativeLayout>

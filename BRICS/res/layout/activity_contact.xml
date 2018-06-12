@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Address"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#e74c3c"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customshape4"
+            android:padding="10dp"
+            android:text="24,Firoz Shah Road, New Delhi"
+            android:textColor="#ffffff" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@id/address_tv"
+            android:layout_margin="10dp"
+            android:background="#3498db" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Email"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#e74c3c"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customshape4"
+            android:padding="10dp"
+            android:text="info@bricsforum.in"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/email2_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customshape4"
+            android:padding="10dp"
+            android:text="bricsindia2015@gmail.com"
+            android:textColor="#ffffff" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@id/email_tv"
+            android:layout_margin="10dp"
+            android:background="#3498db" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Website"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#e74c3c"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/website_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customshape4"
+            android:padding="10dp"
+            android:autoLink="web"
+            android:text="www.bricsforum.in"
+            android:textColor="#ffffff" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@id/website_tv"
+            android:layout_margin="10dp"
+            android:background="#3498db" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Contact"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#e74c3c"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/contact_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/purnimaaanand" />
+
+        <TextView
+            android:id="@+id/contact_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customshape4"
+            android:padding="10dp"
+            android:text="Purnima Anand : +91- 9911970905"
+            android:textColor="#ffffff" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@id/contact_tv"
+            android:layout_margin="10dp"
+            android:background="#3498db" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/facebook_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:src="@drawable/facebook" />
+
+            <ImageButton
+                android:id="@+id/twitter_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="40dp"
+                android:src="@drawable/twitter" >
+            </ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

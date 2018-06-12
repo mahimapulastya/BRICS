@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home">Home</string>
+    <string name="about">About Us</string>
+    <string name="type_prompt">Choose a type</string>
+
+    <string-array name="audience_type">
+        <item>VOLUNTEER</item>
+        <item>MEDIA</item>
+        <item>SPONSORS</item>
+    </string-array>
+    <string-array name="aboutUs_array">
+        <item>About BRICS</item>
+        <item>About BIF</item>
+        <item>Members Organisations</item>
+        <item>BIF Council Members</item>
+    </string-array>
+
+    <string name="events">Events</string>
+
+    <string-array name="events_array">
+        <item>Register for Event</item>
+        <item>Past Events</item>
+    </string-array>
+
+    <string name="countries">Brics Countries</string>
+
+    <!--
+    <string-array name="countries_array">
+        <item>South Africa</item>
+        <item>Russia</item>
+        <item>India</item>
+        <item>China</item>
+    </string-array>
+    -->
+
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="map">Map</string>
+    <string name="sponsors">Sponsors And Partners</string>
+    <string name="aim">Aim And Vision</string>
+    <string name="contact">Contact Us</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="_11">11</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    <string name="title_activity_councilmember">Council Members</string>
+    <string name="app_name">BRICS India</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_homescreen">HomeScreen</string>
+    <string name="title_activity_past_events">Past Events</string>
+    <string name="title_activity_about__bif">About BIF</string>
+    <string name="title_activity_aim">Aim and Vision</string>
+    <string name="title_activity_countries">Countries</string>
+    <string name="title_activity_about_brics">BRICS</string>
+    <string name="title_activity_member__description">Details</string>
+    <string name="title_activity_member__organisation">Member Organisations</string>
+    <string name="title_activity_contact_message">Contact Message</string>
+    <string name="title_activity_register_for_event">Register</string>
+    <string name="event_name">Event Name</string>
+
+    <color name="actionbar_color">#e74c3c</color>
+
+    <string name="title_activity_register_event">RegisterEvent</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_event_name">EventName</string>
+    <string name="title_activity_past_event_1_fragment">PastEvent_1_fragment</string>
+    <string name="title_activity_past_event_2_fragment">PastEvent_2_fragment</string>
+    <string name="title_activity_event_description">EventDescription</string>
+
+</resources>

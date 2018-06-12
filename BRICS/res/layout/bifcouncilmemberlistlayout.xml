@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customshape3"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp" >
+
+    <ImageView
+        android:id="@+id/councilmember_photo_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name_of_councilmember_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/customshape1"
+            android:text="Name of member"
+            android:textColor="#e74c3c"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/position_of_councilmember_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/customshape"
+            android:text="Position of member"
+            android:textSize="15sp" />
+k
+        <ImageView
+            android:id="@+id/flag_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+</LinearLayout>

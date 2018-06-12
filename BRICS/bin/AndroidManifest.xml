@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.msk.brics"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application 
+        android:allowBackup="true"
+        android:icon="@drawable/brics1"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.msk.brics.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.msk.brics.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.msk.brics.HomeScreen"
+            android:label="@string/title_activity_homescreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.msk.brics.Countries"
+            android:label="@string/title_activity_countries"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.Aim"
+            android:label="@string/title_activity_aim"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.ContactMessage"
+            android:label="@string/title_activity_contact_message"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.Sponsors"
+            android:label="@string/title_activity_sponsors"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.CouncilMember"
+            android:label="@string/title_activity_councilmember"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.About_BIF"
+            android:label="@string/title_activity_about__bif"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.PastEvents"
+            android:label="@string/title_activity_past_events"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.About_brics"
+            android:label="@string/title_activity_about_brics"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.Member_Description"
+            android:label="@string/title_activity_member__description"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Member_Organisations" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.Member_Organisations"
+            android:label="@string/title_activity_member__organisation"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.RegisterForEvent"
+            android:label="@string/title_activity_register_for_event"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.msk.brics.EventName"
+            android:label="@string/title_activity_event_name" >
+        </activity>
+        
+        <activity
+            android:name="com.msk.brics.EventDescription"
+            android:label="@string/title_activity_event_description" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PastEvents" >
+            </meta-data>
+        </activity>
+    </application>
+
+</manifest>

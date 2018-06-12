@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customshape"
+    android:orientation="vertical">
+    
+     <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:ellipsize="end"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="first 2-3 lines of the event description"
+        android:textSize="20sp" />
+
+</LinearLayout>
